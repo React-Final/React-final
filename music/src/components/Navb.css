@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{ 
+    background-color:rgb(15, 1, 1);
+    width: 200px;
+    height: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: lightcyan;
+    font-size: 15px;
+}
+
+

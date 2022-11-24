@@ -1,4 +1,4 @@
-import "./App.css";
+import "./app.css"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navb from "./components/Navb";
 import Home from "./views/Home";
@@ -8,7 +8,8 @@ import Fav from "./views/Fav";
 
 function App() {
   return (
-  <>
+  <div className="app">
+        
       <BrowserRouter>
       <Navb/>
         <Routes>
@@ -18,9 +19,9 @@ function App() {
           <Route path="/Fav" element={<Fav/>}/>
         </Routes>
       </BrowserRouter>
-    
+        
   <div>yalla shufer</div>
-  </>
+  </div>
   )
 }
 
